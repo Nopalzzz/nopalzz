@@ -125,16 +125,17 @@ a {
     margin-top: 100px;
 }
 
-.h2 {
-    font-weight: 500;
+.container-text-faq .h2{
+    font-weight: 300;
     font-size: 3.6rem;
     line-height: 1.25;
 }
 
 .container-text-faq {
     margin-left: 10px;
-    margin-bottom: 135px;
+    margin-bottom: 35px;
 }
+
 
 .container-text-faq p {
     display: block;
@@ -143,7 +144,7 @@ a {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     unicode-bidi: isolate;
-    font-size: 17px;
+    font-size: 15px;
     color: grey;
     line-height: 1.8;
 }
@@ -161,7 +162,7 @@ a {
 }
 
 .container-text-faq2 h1 {
-    font-weight: 500;
+    font-weight: 300;
     font-size: 3.6rem;
     line-height: 1.25;
 }
@@ -173,13 +174,13 @@ a {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     unicode-bidi: isolate;
-    font-size: 17px;
+    font-size: 15px;
     color: grey;
     line-height: 1.8;
 }
 
 .container-text-faq2 {
-    margin-bottom: 340px;
+    margin-bottom: 220px;
 }
 
 .faq3 {
@@ -193,14 +194,14 @@ a {
 }
 
 .h2 {
-    font-weight: 500;
+    font-weight: 300;
     font-size: 3.6rem;
     line-height: 1.25;
 }
 
 .container-text-faq-faq3 {
     margin-left: 10px;
-    margin-bottom: 135px;
+    margin-bottom: 120px;
 }
 
 .container-text-faq3 p {
