@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
+    max-width: 100vw;
 }
 
 header {
@@ -105,7 +105,7 @@ a {
     text-align: center;
     padding: 40px;
     font-size: 30px;
-    font-weight: 500;
+    font-weight: 300;
 }
 
 .pricing-img {
@@ -123,97 +123,86 @@ a {
 .container-img {
     padding: 20px;
     margin-top: 100px;
+    margin-left: -50px;
 }
 
-.container-text-faq .h2{
+.container-text-faq h2{
     font-weight: 300;
-    font-size: 3.6rem;
+    font-size: 2.5rem;
     line-height: 1.25;
+    margin-bottom: 2.5rem;
 }
 
 .container-text-faq {
-    margin-left: 10px;
-    margin-bottom: 35px;
+    width: 30%;
+    margin-top: -120px;
 }
-
 
 .container-text-faq p {
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    unicode-bidi: isolate;
-    font-size: 15px;
-    color: grey;
-    line-height: 1.8;
+    margin-bottom: 2.5rem;
+    font-size: 1.3rem;
+    font-weight: 300;
 }
+
+/* faq2 */
 
 .faq2 {
     display: flex;
-    flex-direction: row-reverse;
     align-items: center;
-    margin-top: 200px;
 }
 
 .container-img-faq2 {
-    justify-content: space-between;
-    flex-direction: column;
+    padding: 20px;
+    margin-top: 100px;
 }
 
-.container-text-faq2 h1 {
+.container-text-faq2 h2 {
     font-weight: 300;
-    font-size: 3.6rem;
+    font-size: 2.5rem;
     line-height: 1.25;
 }
 
-.container-text-faq2 p {
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    unicode-bidi: isolate;
-    font-size: 15px;
-    color: grey;
-    line-height: 1.8;
+.container-text-faq2 {
+    margin-left: 400px;
+    margin-bottom: 235px;
+    width: 50%;
 }
 
-.container-text-faq2 {
-    margin-bottom: 220px;
+.container-text-faq2 p {
+    margin-bottom: 2.5rem;
+    font-size: 1rem;
+    font-weight: 300;
 }
+
+/* faq3 */
 
 .faq3 {
-    display: flex;
+    display: flex;  
     align-items: center;
 }
 
 .container-img-faq3 {
     padding: 20px;
     margin-top: 200px;
+    margin-left: -50px;
 }
 
-.h2 {
+.container-text-faq3 h2{
     font-weight: 300;
-    font-size: 3.6rem;
+    font-size: 2.5rem;
     line-height: 1.25;
+    margin-bottom: 2.5rem;
 }
 
-.container-text-faq-faq3 {
-    margin-left: 10px;
-    margin-bottom: 120px;
+.container-text-faq3 {
+    width: 30%;
+    margin-top: -120px;
 }
 
 .container-text-faq3 p {
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    unicode-bidi: isolate;
-    font-size: 17px;
-    color: grey;
-    line-height: 1.8;
+    margin-bottom: 2.5rem;
+    font-size: 1.3rem;
+    font-weight: 300;
 }
 
 .container-text-blog {
@@ -222,7 +211,8 @@ a {
 }
 
 .container-text-blog h1 {
-    font-size: 40px;
+    font-size: 50px;
+    font-weight: 300;
 }
 
 .container-text-blog p {
@@ -256,7 +246,7 @@ a {
 
 .card-img h3 {
     margin-top: 30px;
-    font-weight: 500;
+    font-weight: 300;
     font-size: 2rem;
     text-align: center;
 }
@@ -277,7 +267,7 @@ a {
 }
 
 .cowork {
-    padding: 145px 0;
+    padding: 250px 0;
     background: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .7)), url(cowork-7.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -289,7 +279,7 @@ a {
 .cowork h1 {
     color: white;
     text-align: center;
-    font-weight: 500;
+    font-weight: 300;
     font-size: 50px;
 }
 
@@ -332,7 +322,6 @@ footer {
 }
 
 .text {
-    
     width: 100%;
     height: 300px;
     display: flex;
@@ -364,17 +353,17 @@ footer {
     justify-content: center;
 }
 
-li {
+.text ul li {
     list-style-type: none;
     margin-top: 10px;
 }
 
-li a {
+.text li a {
     color: grey;
     transition: 1s;
 }
 
-li a:hover {
+.text li a:hover {
     color: white;
 }
 
@@ -389,7 +378,6 @@ li a:hover {
 }
 
 @media (max-width: 1024px) {
-
     .navbar-title {
         width: 100%;
         justify-content: center;
@@ -426,17 +414,16 @@ li a:hover {
         width: 300px;
         margin-left: 70px;
     }
+    .container-text-faq{
+        margin-top: 20px;
+        transform: none;
+        width: 65%;
+    }
     .container-text-faq h2 {
-        padding: 70px;
-        margin-top: -60px;
-        font-size: 30px;
-        text-align: left;
-        font-weight: 300;
+        font-size: 2rem;
     }
     .container-text-faq p {
-        padding: 70px;
-        margin-top: -120px;
-        font-size: 13px;
+        font-size: 1rem;
     }
     .faq2 {
         flex-direction: column;
@@ -448,21 +435,17 @@ li a:hover {
     .container-img-faq2 img {
         width: 300px;
     }
-    .container-text-faq2 {
-        margin-left: 70px;
-        margin-top: 200px;
+    .container-text-faq2{
+        margin-top: 350px;
+        transform: none;
+        margin-right: 450px;
     }
     .container-text-faq2 h2 {
-        padding: 10px;
-        margin-top: -60px;
-        font-size: 30px;
-        text-align: left;
-        font-weight: 300;
+        font-size: 2rem;
     }
     .container-text-faq2 p {
-        padding: 10px;
-        margin-top: 10px;
-        font-size: 13px;
+        font-size: 1rem;
+        margin-top: 20px;
     }
     .faq3 {
         flex-direction: column;
@@ -475,24 +458,19 @@ li a:hover {
     .container-img-faq3 img {
         width: 300px;
     }
-    .container-text-faq3 {
-        margin-left: 70px;
-        margin-top: 60px;
+    .container-text-faq3{
+        margin-top: 20px;
+        transform: none;
+        width: 65%;
     }
     .container-text-faq3 h2 {
-        padding: 10px;
-        margin-top: -60px;
-        font-size: 30px;
-        text-align: left;
-        font-weight: 300;
+        font-size: 2rem;
     }
     .container-text-faq3 p {
-        padding: 10px;
-        margin-top: -5px;
-        font-size: 13px;
+        font-size: 1rem;
     }
     .blog {
-        margin-top: -300px;
+        margin-top: -100px;
     }
     .container-text-blog h1 {
         font-size: 2rem;
@@ -502,6 +480,7 @@ li a:hover {
     }
     .container-image-blog{
         flex-direction: column;
+        align-items: center;
     }
     .container-img-blog{
         margin: -80px;
@@ -516,9 +495,44 @@ li a:hover {
         font-size: 30px;
     }
     .cowork p{
-        font-size: 14px;
+        font-size: 15px;
+    }
+    .cowork{
+        padding: 145px 0;
+        background: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .7)), url(cowork-7.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center 79%;
+        background-attachment: fixed;
+        margin-top: 200px;
+         align-items: center;
     }
     .text{
-        font-size: 13px;
+        font-size: 14px;
+        flex-wrap: wrap;
+        padding: 10px;
+    }
+    .product{
+        padding: 20px;
+        margin-top: 90px;
+    }
+    .support{
+        padding: 20px;
+        margin-top: 90px;
+    }
+    .resources{
+        padding: 20px;
+        margin-top: 90px;
+    }
+    .company{
+        padding: 10px;
+        margin-top: 100px;
+        margin-left: 50px;
+    }
+    footer{
+        height: 100vh;
+    }
+    .logo{
+        margin-top: 200px
     }
 }
